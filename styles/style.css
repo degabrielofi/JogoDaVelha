@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    height: 100%;
+  font-family:'Poppins', cursive;
+  letter-spacing: 2px;
+  text-align: center;
+  background-image: linear-gradient(to left, #c20300 0%, #8f0100 100%);
+  background-size: cover;
+  background-repeat: repeat;
+  color: #fff;
+}
+
+
+
+
+
+.mb {
+    margin-bottom: 20px;
+  }
+
+
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color:  white;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.o{
+position: relative;
+}
+
+.o:after{
+ position: absolute;
+ content: "";
+ background: url(../assets/Logo\ SPFC\ 500x500.png) no-repeat;
+ font-size: 50px;
+ line-height: 100px;
+ height: 100px;
+ background-size: contain;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+
+.x{
+position: relative;
+}
+
+.x::after{
+position: absolute;
+content: "";
+background: url(../assets/Estadio\ 500x500.png);
+background-repeat: no-repeat;
+font-size: 50px;
+line-height: 100px;
+height: 100px;
+background-size: contain;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.score {
+    background-color: rgba(0, 0, 0, 0.472);
+    border-radius: 4px;
+    padding: 5px;
+    
+  
+}
+
+button {
+    width: 190px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color:  rgba(0, 0, 0, 0.472);
+  }
+  
+
+    .game {
+        display: flex;
+        justify-content: space-around;
+      
+      }
+      
+      .players {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .player {
+        width: 180px;
+        margin:0 10px 20px 10px;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.425);
+      }
