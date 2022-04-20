@@ -1,12 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
- 
     let squares = document.querySelectorAll(".square");
     let resetRoundBtn = document.querySelector(".resetRound");
     let resetGameBtn = document.querySelector(".resetGame");
    
-  
-    
     squares.forEach((square) => {
       
       square.addEventListener("click", handleClick);
@@ -55,8 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let square = document.getElementById(position.toString());
     let symbol = board[position];
     square.innerHTML = `<div class="${symbol}"></div>`;
-  
-      
   
   }
   

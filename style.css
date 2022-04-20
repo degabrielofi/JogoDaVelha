@@ -11,16 +11,9 @@ body{
   color: #fff;
 }
 
-
-
-
-
-.mb {
+.mb{
     margin-bottom: 20px;
-  }
-
-
-
+}
 
 .square{
     width: 100px;
@@ -38,7 +31,7 @@ position: relative;
 .o:after{
  position: absolute;
  content: "";
- background: url(../assets/Logo\ SPFC\ 500x500.png) no-repeat;
+ background: url(./assets/images/Logo\ SPFC.png) no-repeat;
  font-size: 50px;
  line-height: 100px;
  height: 100px;
@@ -56,7 +49,7 @@ position: relative;
 .x::after{
 position: absolute;
 content: "";
-background: url(../assets/Estadio\ 500x500.png);
+background: url(./assets/images/Estadio\ -\ Morumbi.png);
 background-repeat: no-repeat;
 font-size: 50px;
 line-height: 100px;
@@ -68,15 +61,13 @@ left: 0;
 right: 0;
 }
 
-.score {
+.score{
     background-color: rgba(0, 0, 0, 0.472);
     border-radius: 4px;
     padding: 5px;
-    
-  
 }
 
-button {
+button{
     width: 190px;
     padding: 15px;
     font-weight: bolder;
@@ -84,29 +75,27 @@ button {
     border: none;
     border-radius: 4px;
     transition: 0.3s;
-  }
+}
   
-  button:hover {
+button:hover{
     cursor: pointer;
     background-color:  rgba(0, 0, 0, 0.472);
-  }
-  
+}
 
-    .game {
-        display: flex;
-        justify-content: space-around;
+.game{
+    display: flex;
+    justify-content: space-around;
+}
       
-      }
+.players {
+    display: flex;
+    justify-content: center;
+}
       
-      .players {
-        display: flex;
-        justify-content: center;
-      }
-      
-      .player {
-        width: 180px;
-        margin:0 10px 20px 10px;
-        padding: 10px;
-        border-radius: 4px;
-        background-color: rgba(0, 0, 0, 0.425);
-      }
+.player {
+    width: 180px;
+    margin:0 10px 20px 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.425);
+}

@@ -1,4 +1,3 @@
-
 let board = ["","","","","","","","",""];
 let playerTime = 0;
 let symbols = ["o","x"];
@@ -15,7 +14,6 @@ let winState = [
   [0,4,8],
   [2,4,6],
 ];
-
 
 function handleMove(position) {
 
@@ -39,7 +37,6 @@ function handleMove(position) {
 }
 
 function isWin() {
-
 
   for (let i = 0; i < winState.length; i++) {
     let seq = winState[i];
